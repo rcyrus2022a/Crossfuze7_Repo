@@ -4,7 +4,10 @@
         <application display_value="DevInstanceGithub">f9837edb87d141104aa963150cbb3513</application>
         <assessment/>
         <device_type/>
-        <filter/>
+        <filter table="cmdb_ci_computer">osLIKEWindows^operational_status=1^EQ<item display_value="Windows" endquery="false" field="os" goto="false" newquery="false" operator="LIKE" or="false" value="Windows"/>
+            <item display_value="Operational" endquery="false" field="operational_status" goto="false" newquery="false" operator="=" or="false" value="1"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
         <hint/>
         <homepage/>
         <image/>
@@ -24,17 +27,17 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>79837edb87d141104aa963150cbb3519</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Create New</sys_name>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Windows Operational Devices</sys_name>
         <sys_overrides/>
         <sys_package display_value="DevInstanceGithub" source="x_697887_devinstan">8f63369b87d141104aa963150cbb35e6</sys_package>
         <sys_policy/>
         <sys_scope display_value="DevInstanceGithub">8f63369b87d141104aa963150cbb35e6</sys_scope>
         <sys_update_name>sys_app_module_79837edb87d141104aa963150cbb3519</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-02-01 14:26:10</sys_updated_on>
+        <sys_updated_on>2022-02-01 14:35:03</sys_updated_on>
         <timeline_page/>
-        <title>Create New</title>
+        <title>Windows Operational Devices</title>
         <uncancelable>false</uncancelable>
         <view_name/>
         <window_name/>
